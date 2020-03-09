@@ -23,10 +23,12 @@ WHEN I password is visible on page
 THEN I can press button, "Copy password to clipboard"
 WHEN I press button, "Copy password to clipboard"
 THEN I can paste the generated password anywhere needed
-<img src="/Develop/wk3-html-screenshot.png" width="75%" height="50%">
 
 Link to repository:
 https://blin124.github.io/wk3-hw-password-generator/
 
 Link to html:
 https://blin124.github.io/wk3-hw-password-generator/Develop/index.html
+<img src="/Develop/wk3-html-screenshot.png" width="75%" height="50%">
+
+
