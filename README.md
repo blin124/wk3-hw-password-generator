@@ -24,3 +24,6 @@ THEN I can press button, "Copy password to clipboard"
 WHEN I press button, "Copy password to clipboard"
 THEN I can paste the generated password anywhere needed
 
+<img src="/Develop/wk3-html-screenshot.png" width="75%" height="50%">
+![](/Develop/wk3-html-screenshot.png)
+
