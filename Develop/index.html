@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+        <header>
+          <h1>Password Generator</h1>
+        </header>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container align-center">
+              <h2>Generate a Password (8-128)</h2>
+              <div class="result-container">
+                <span id="result"></span>
+              </div>
+              <div class="setting">
+                <div class="setting">
+                  <label>Password length</label>
+                  <input type="number" id="length" min='8' max='128' value='20'/> 
+                </div>
+                <!-- selection between upper/lowercase, numbers and symbols -->
+                <div class="setting">
+                  <label>Include lowercase letters</label> 
+                  <input type="checkbox" id="lowercase" checked />
+                </div>
+                <div class="setting">
+                  <label>Include uppercase letters</label> 
+                  <input type="checkbox" id="uppercase" checked />
+                </div>
+                <div class="setting">
+                  <label>Include numbers</label> 
+                  <input type="checkbox" id="numbers" checked />
+                </div>
+                <div class="setting">
+                  <label>Include symbols</label> 
+                  <input type="checkbox" id="symbols" checked />
+                </div>
+                <br>
+                <button class="btn-btn" id="clipboard"> Copy password to clipboard
+                  <i class="far fa-clipboard"></i>
+                </button>
+              </div>
+            </div>
+
+          </div>
+          <div class="card-footer">
+            <button id="generate" 
+              class="btn">Generate Password</button>
+          </div>
+        </div>
+  </div>
+    
+  <script src="script.js"></script>
+  </body>
+</html>
