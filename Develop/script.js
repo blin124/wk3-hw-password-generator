@@ -76,6 +76,7 @@ function generatePassword(lower, upper, number, symbol, length) {
 
     if (typesCount === 0) {
         alert("MUST HAVE AT LEAST ONE SELECTED!");
+        return finalPassword;
     }
     else if (length <= 7) {
 
