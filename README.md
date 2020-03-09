@@ -27,5 +27,6 @@ THEN I can paste the generated password anywhere needed
 
 Link to repository:
 https://blin124.github.io/wk3-hw-password-generator/
+
 Link to html:
 https://blin124.github.io/wk3-hw-password-generator/Develop/index.html
